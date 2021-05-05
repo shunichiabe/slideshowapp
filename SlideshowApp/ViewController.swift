@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     //１つ先の画像を表示
         imageArrayIndex += 1
     //最後の時最初を表示
-        if imageArrayIndex >= 3 {
+        if imageArrayIndex >= 4 {
             imageArrayIndex = 0
         }
         myimageView.image = UIImage(named: imageArray[imageArrayIndex])
